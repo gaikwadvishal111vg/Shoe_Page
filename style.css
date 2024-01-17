@@ -1,0 +1,67 @@
+*{
+    margin:auto;
+    padding:auto;
+    box-sizing: border-box;
+}
+.contaner::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: skewY(10deg);
+    background: linear-gradient(to right, #b92b27, #1565c0);
+    z-index: -1;
+    /* box-shadow: 0px 0px 10px black; */
+   
+   
+}
+
+
+section{
+    width: 40%;
+    display: inline-block;
+    height:50%;
+    
+    
+
+}
+section p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: larger;
+    color:white;
+}
+section:first-child{
+    margin-right:20%    
+}
+.shoe_img{
+    max-width: 400px;
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+main{
+    background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+box-shadow: 0px,0px,150px black;
+width: 1200px;
+height: 400px;
+margin-left: 200px;
+margin-top: 150px;
+
+}
+.shoe_img:hover{
+    max-width: 500px;
+    /* top: 50px; */
+    bottom: 300px;
+    left: 900px;
+}
+.contaner{
+    background-color: black;
+}
+h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: white;
+    font-size: x-large;
+}
